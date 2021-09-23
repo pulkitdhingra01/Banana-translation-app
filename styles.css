@@ -1,0 +1,77 @@
+@import url('https://fonts.googleapis.com/css2?family=Italianno&display=swap');
+
+:root{
+    --primary-color : #faf608;
+    --secondary-color : #60A5FA;
+}
+
+body{
+    font-family: 'Italianno', cursive;
+     box-sizing: border-box;
+     margin: 0;
+     
+}
+.head{
+    background-color: #faf608;
+    
+    padding: 0rem
+}
+.heading{
+    padding: 1rem;
+    text-align: center;
+    color:#000000;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+main{
+    margin: auto;
+    padding: 1rem;
+    max-width: 700px;
+    
+}
+
+textarea{
+    box-sizing: border-box;
+    display: block;
+    width: 95%;
+    min-height: 18vh;
+    font-size: large;
+    font-family:'Italianno', cursive;
+    font-size: 1.5rem;
+}
+
+button{
+    background-color: #faf608;
+    margin: 1rem 0rem;
+    padding:0.5rem 1rem;
+    font-family:'Italianno', cursive;
+    font-size: 2rem;
+
+
+}
+#output-txt{
+    font-size: 1.7rem;
+}
+#output{
+    box-sizing: border-box;
+    width: 95%;
+    min-height: 15vh;
+    overflow: scroll;
+    border: 1px solid black;
+}
+
+footer{
+    background-color: #faf608;
+    padding: 1rem;
+    bottom:0;
+    position: fixed;
+    width: 100%;
+    
+}
+.foot-txt{
+    font-size: 1.7rem;
+    margin: auto;
+    max-width: 700px;
+    text-align: center;
+}
